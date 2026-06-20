@@ -1,13 +1,21 @@
 # Hello World
-🌐 https://mernstack-sage-sigma.vercel.app/
+
+🌐 **Live Demo:** https://mernstack-sage-sigma.vercel.app/
+
+## Preview
+
+![Hello World Website](./task1.png)
+
+## About
+
 A simple HTML page that displays **"Hello, World!"** centered on the screen using HTML and CSS.
 
 ## Features
 
 - Clean HTML5 structure
-- Centered content using Flexbox
-- Responsive full-screen layout
-- Simple and readable styling
+- Responsive layout
+- Flexbox-centered content
+- Minimal and readable design
 
 ## Project Structure
 
@@ -15,21 +23,6 @@ A simple HTML page that displays **"Hello, World!"** centered on the screen usin
 .
 └── index.html
 ```
-
-## How to Run
-
-1. Save the code as `index.html`.
-2. Open the file in any modern web browser.
-
-## Output
-
-The page displays:
-
-```text
-Hello, World!
-```
-
-centered both vertically and horizontally on a light gray background.
 
 ## Technologies Used
 
