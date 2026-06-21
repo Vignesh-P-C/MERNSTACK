@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Wallah / Laundry Mart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: rgb(160, 207, 212);
+            
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            border: 1px solid #666;
+            padding: 20px;
+            border-radius: 8px;
+            background: rgba(176, 154, 137, 0.133)
+        }
+        .container h1 {
+            text-align: center;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #666;
+            color: rgb(7, 139, 227)
+        }
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: rgb(123, 149, 166)
+        }
+        .about h2 {
+            color:rgb(114, 180, 223);
+            text-align: left;
+        }
+        section {
+            margin-bottom: 28px;
+        }
+        img {
+            width: auto;
+            height: 400px;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        table {
+            width:300px;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th {
+            color:#8d6fca
+        }
+        th, td {
+            border: 1px solid #666;
+            padding: 8px;
+            text-align: left;
+        }
+        form {
+            width: 320px;
+            border: 1px solid #666;
+            padding: 20px;
+        }
+        label {
+            display: inline-block;
+            width: 70px;
+            margin: 6px 0;
+        }
+        input {
+            padding: 6px;
+            margin: 6px 0;
+            width: 220px;
+            max-width: 100%;
+            background: #222;
+            color: #fff;
+            border: 1px solid #666;
+        }
+        footer {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Laundry Wallah / Laundry Mart</h1>
+        <h2>Welcome to Laundry Wallah / Laundry Mart</h2>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Laundry Wallah / Laundry Mart is a leading laundry service provider dedicated to making your life easier. We offer a wide range of laundry services, including washing, drying, folding, and ironing, all designed to meet your specific needs. Our mission is to provide high-quality laundry solutions that save you time and effort, allowing you to focus on what matters most.</p>
+            
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/046/123/793/small_2x/high-tech-laundry-room-featuring-contemporary-appliances-modern-laundromat-interior-concept-of-technological-advancements-in-laundry-services-sleek-design-and-efficient-operations-photo.jpeg" alt="Laundry service image"/>
+
+            <h2>Our Services</h2>
+            <ul>
+                <li>Washing and Drying</li>
+                <li>Ironing and Folding</li>
+                <li>Dry Cleaning</li>
+                <li>Stain Removal</li>
+                <li>Express Services</li>
+                <li>Special Garment Care</li>
+            </ul>
+
+            <h2>Price List</h2>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Washing and Drying</td>
+                    <td>Rs 10.00</td>
+                </tr>
+                <tr>
+                    <td>Ironing and Folding</td>
+                    <td>Rs 5.00</td>
+                </tr>
+                <tr>
+                    <td>Dry Cleaning</td>
+                    <td>Rs 20.00</td>
+                </tr>
+                <tr>
+                    <td>Stain Removal</td>
+                    <td>Rs 8.00</td>
+                </tr>
+            </table>
+
+            <h2>Book Now</h2>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>
+            <p>Contact us at: info@laundrymart.com</p>
+        </footer>
+    </div>
+</body>
+</html>
