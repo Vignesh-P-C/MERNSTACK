@@ -1,6 +1,6 @@
 # CSS Selectors
 
-🌐 **Live Demo:** _Add your deployed URL here_
+🌐 **Live Demo:** https://mernstack-pvh5.vercel.app/
 
 ## Stack
 
