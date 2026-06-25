@@ -1,6 +1,6 @@
 # Laundry Wallah / Laundry Mart
 
-🌐 **Live Demo:** https://mernstack-sage-sigma.vercel.app/
+🌐 **Live Demo:** https://mernstack-5iyu.vercel.app/
 
 ## Stack
 
