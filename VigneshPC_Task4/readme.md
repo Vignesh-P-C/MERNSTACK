@@ -1,6 +1,6 @@
 # CSS Units, Box Model & Fonts
 
-🌐 **Live Demo:** _Add your deployed URL here_
+🌐 **Live Demo:** _https://mernstack-lqnl.vercel.app/_
 
 ## Stack
 
