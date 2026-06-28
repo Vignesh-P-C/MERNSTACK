@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0b1a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left-section {
+    flex: 1;
+    background: radial-gradient(ellipse at center, #22e0ec 0%, #21226a 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section img {
+    width: 72%;
+    max-width: 360px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.right-section {
+    flex: 1;
+    background-color: #0e0f22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.form-box {
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.form-box h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-box .subtitle {
+    font-size: 0.88rem;
+    color: #9999aa;
+    text-align: center;
+    margin-top: -14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.field label {
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+
+.field input {
+    background-color: #181a2e;
+    border: 1px solid #2c2e50;
+    border-radius: 6px;
+    padding: 11px 14px;
+    color: #ffffff;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.field input::placeholder {
+    color: #55556a;
+}
+
+.field input:focus {
+    border-color: #00c2cb;
+}
+
+.forgot-link {
+    font-size: 0.8rem;
+    color: #00c2cb;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: #00c2cb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    margin-top: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-login:hover {
+    background-color: #00a8b0;
+}
+
+.register-prompt {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #777788;
+}
+
+.register-prompt a {
+    color: #00c2cb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-prompt a:hover {
+    text-decoration: underline;
+}   
