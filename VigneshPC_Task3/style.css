@@ -1,58 +1,65 @@
 body {
   background-color: #f58f47;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
   margin: 0;
   padding: 24px;
+  color: white;
 }
 
-.wrap {
-  max-width: 900px;
+/* Simple centered wrapper for the page content */
+.container {
+  max-width: 1100px;
   margin: 0 auto;
 }
 
+/* Class selector: applies to all elements with class="head" */
 .head {
   color: darkblue;
+  margin: 0 0 18px;
 }
 
+/* ID selector: affects only the second heading */
 #bglime {
   background-color: lime;
   color: red;
+  display: block;
+  width: 100%;
+  padding: 2px 0;
 }
 
+/* Element selector: styles every paragraph on the page */
 p {
   color: white;
-  line-height: 1.7;
   font-size: 18px;
+  line-height: 1.7;
+  margin: 26px 0;
 }
 
+/* ID selector overrides the p selector for the second paragraph */
 #para {
-  color: green;
-}
-
-#para span {
   color: black;
-  font-size: 1.35em;
-  font-weight: bold;
+  font-size: 22px;
 }
 
-.lists h4 {
-  margin-top: 28px;
-  margin-bottom: 10px;
-  color: #f2f2f2;
-}
-
-.lists ul,
-.lists ol {
-  padding-left: 24px;
-}
-
-.lists li {
-  margin: 8px 0;
-}
-
+/* Descendant selector: styles only spans inside list items */
 .lists li span {
   color: gold;
   font-weight: bold;
   text-decoration: underline;
+}
+
+/* Basic spacing for the lists section */
+.lists h4 {
+  margin: 34px 0 12px;
+  color: white;
+}
+
+.lists ul,
+.lists ol {
+  padding-left: 28px;
+  margin-top: 0;
+}
+
+.lists li {
+  margin: 10px 0;
 }
