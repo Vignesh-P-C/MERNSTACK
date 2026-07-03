@@ -4,7 +4,7 @@
 >
 > I understand the concern regarding the presentation of this readme file, coming forth as generated using AI, but that is not the case. I have worked on projects before, and I keep a consistent documentation style on GitHub because I am also recording my MERN stack learning journey. For this revision, I have kept the README clear and simple, and I have added comments in the HTML and CSS files to explain the media query choices used in this assignment.
 
-🌐 **Live Demo:** https://mernstack-v1ld.vercel.app/
+🌐 **Live Demo:** https://mernstack-task7.vercel.app/
 
 ## Stack
 
