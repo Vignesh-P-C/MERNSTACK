@@ -17,13 +17,13 @@ Each task lives in its own folder with its own `index.html`, styles, assets, and
 
 | # | Task | Focus | Live Demo |
 |---|------|-------|-----------|
-| 1 | [Hello World](./task1) | Flexbox-centered "Hello, World!" page | [Demo](https://mernstack-sage-sigma.vercel.app/) |
-| 2 | [Laundry Wallah / Laundry Mart](./task2) | Full page build: services, pricing, booking form, contact | [Demo](https://mernstack-5iyu.vercel.app/) |
-| 3 | [CSS Selectors](./task3) | Element, class, ID, descendant selectors & specificity | [Demo](https://mernstack-pvh5.vercel.app/) |
-| 4 | [CSS Units, Box Model & Fonts](./task4) | Viewport units, box-sizing, gradient buttons | [Demo](https://mernstack-lqnl.vercel.app/) |
-| 5 | [CSS Hero Section: Display, Position & Float](./task5) | `display: inline`/`inline-block`, `position`, viewport-fit layout | [Demo](https://mernstack-2wfd.vercel.app/) |
-| 6 | [CSS Login Page: Flexbox](./task6) | Split-screen layout with Flexbox | [Demo](https://mernstack-v1ld.vercel.app/) |
-| 7 | [CSS Responsive Issues: Media Queries](./task7) | Making the hero/navbar responsive across breakpoints | [Demo](https://mernstack-task7.vercel.app/) |
+| 1 | [Hello World](./Task1) | Flexbox-centered "Hello, World!" page | [Demo](https://mernstack-sage-sigma.vercel.app/) |
+| 2 | [Laundry Wallah / Laundry Mart](./Task2) | Full page build: services, pricing, booking form, contact | [Demo](https://mernstack-5iyu.vercel.app/) |
+| 3 | [CSS Selectors](./Task3) | Element, class, ID, descendant selectors & specificity | [Demo](https://mernstack-pvh5.vercel.app/) |
+| 4 | [CSS Units, Box Model & Fonts](./Task4) | Viewport units, box-sizing, gradient buttons | [Demo](https://mernstack-lqnl.vercel.app/) |
+| 5 | [CSS Hero Section: Display, Position & Float](./Task5) | `display: inline`/`inline-block`, `position`, viewport-fit layout | [Demo](https://mernstack-2wfd.vercel.app/) |
+| 6 | [CSS Login Page: Flexbox](./Task6) | Split-screen layout with Flexbox | [Demo](https://mernstack-v1ld.vercel.app/) |
+| 7 | [CSS Responsive Issues: Media Queries](./Task7) | Making the hero/navbar responsive across breakpoints | [Demo](https://mernstack-task7.vercel.app/) |
 
 ## Progression
 
