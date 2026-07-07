@@ -13,7 +13,8 @@
 
 ## Preview
 
-![CSS Hamburger Menu Task](./task8.png)
+![CSS Hamburger Menu Task](./task8.1.png)
+![CSS Hamburger Menu Task onClick](./task8.2.png)
 
 ## About
 
