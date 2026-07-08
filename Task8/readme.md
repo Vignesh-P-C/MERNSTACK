@@ -15,7 +15,7 @@
 
 | Menu Closed | Menu Open |
 |---|---|
-| ![CSS Hamburger Menu Task](./task8.1.jpg) | ![CSS Hamburger Menu Task onClick](./task8.2.jpg) |
+| ![CSS Hamburger Menu Task](./task8.1.jpeg) | ![CSS Hamburger Menu Task onClick](./task8.2.jpeg) |
 
 ## About
 
