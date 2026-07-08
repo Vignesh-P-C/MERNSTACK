@@ -1,0 +1,196 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #11111d;
+    color: #f4f4f7;
+    }
+
+    /* navbar */
+    .navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 32px;
+    }
+
+    .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    }
+
+    .nav-links {
+    display: flex;
+    gap: 28px;
+    }
+
+    .nav-links a {
+    color: #c7c8d9;
+    text-decoration: none;
+    font-size: 1rem;
+    }
+
+    .username {
+    border: none;
+    background: #1a2134;
+    color: #15b6d6;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    }
+
+    /* hamburger icon, hidden until mobile view */
+    .hamburger-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    }
+
+    .hamburger-btn span {
+    width: 24px;
+    height: 2px;
+    background: #f4f4f7;
+    }
+
+    /* mobile menu, hidden by default */
+    .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background: #f4f4f7;
+    flex-direction: column;
+    padding: 20px;
+    gap: 16px;
+    z-index: 10;
+    }
+
+    .mobile-menu a {
+    color: #11111d;
+    text-decoration: none;
+    font-size: 0.95rem;
+    }
+
+    /* the actual trick: when the hamburger button is focused,
+    show the menu that comes right after it in the HTML */
+    .hamburger-btn:focus ~ .mobile-menu {
+    display: flex;
+    }
+
+    /* hero */
+    .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 48px;
+    gap: 40px;
+    }
+
+    .hero-text {
+    max-width: 560px;
+    }
+
+    .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 18px;
+    }
+
+    .hero-text h1 span {
+    color: #15b6d6;
+    }
+
+    .hero-text p {
+    color: #a2a3b7;
+    line-height: 1.6;
+    margin-bottom: 28px;
+    }
+
+    .cta {
+    display: inline-block;
+    background: #15b6d6;
+    color: #08111b;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 14px 24px;
+    border-radius: 14px;
+    /* smooth out the hover so the grow + tilt doesn't feel jumpy */
+    transition: transform 0.25s ease;
+    }
+
+    /* on hover, button grows a bit and tilts slightly */
+    .cta:hover {
+    transform: scale(1.08) rotate(-3deg);
+    }
+
+    .hero-image img {
+    width: 400px;
+    max-width: 100%;
+    }
+
+    /* tablet */
+    @media (max-width: 1024px) {
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .nav-links a {
+        font-size: 0.85rem;
+    }
+
+    .username {
+        padding: 8px 14px;
+        font-size: 0.85rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2.4rem;
+    }
+
+    .hero-text p {
+        font-size: 0.95rem;
+    }
+
+    .hero-image img {
+        width: 300px;
+    }
+    }
+
+    /* mobile */
+    @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-btn {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.9rem;
+    }
+
+    .hero-text p {
+        font-size: 0.85rem;
+    }
+
+    .hero-image img {
+        width: 260px;
+    }
+    }
