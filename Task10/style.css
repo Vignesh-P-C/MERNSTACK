@@ -136,6 +136,9 @@ body {
 .hero-image img {
   width: 400px;
   max-width: 100%;
+  /* if the cursor leaves mid-swirl, this eases the image back to its
+     resting position instead of the animation cutting off instantly */
+  transition: transform 0.5s ease-out;
 }
 
 /* image "orbits" in a loose circle while the scale flips between
@@ -167,9 +170,8 @@ body {
   }
 }
 
-/* script.js toggles this class - keeps the loop going the whole time
-   the cursor stays on the image, instead of only playing once */
-.hero-image img.floating {
+/* loops for as long as the cursor stays on the image */
+.hero-image img:hover {
   animation: bubbleFloat 3s ease-in-out infinite;
 }
 
