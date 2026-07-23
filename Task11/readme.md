@@ -2,9 +2,9 @@
 
 > **Note**
 >
-> This README follows the same disclaimer/format I've used across my other tasks — written by me, not AI-generated, kept as part of documenting my MERN stack learning journey.
+> I understand the concern regarding the presentation of this readme file, coming forth as generated using AI, but that is not the case. I have worked on projects before, and I keep a consistent documentation style on GitHub because I am also recording my MERN stack learning journey. For this revision, I have kept the README clear and simple, and I have added a couple of comments in the CSS file to explain the animation logic used in this assignment.
 
-🌐 **Live Demo:** [add your Vercel link here]
+🌐 **Live Demo:** https://mernstack-task11.vercel.app/
 
 ## Stack
 
